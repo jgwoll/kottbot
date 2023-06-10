@@ -26,24 +26,24 @@ A useful Discord Bot for you!
 
 <details>
     <summary>Directly on the machine</summary>
-    ## Steps
-    - Download the latest release (or clone the repo and build from source).
-    - Check if java is installed with `java --version`
-    - Execute  `java -jar <jar file name>.jar` to start the Bot: 
-    - Type `exit` to shutdown the bot!
+## Steps
+- Download the latest release (or clone the repo and build from source).
+- Check if java is installed with `java --version`
+- Execute  `java -jar <jar file name>.jar` to start the Bot: 
+- Type `exit` to shutdown the bot!
 
-    ## Run in the Background:
-    - Install `screen`
-    ==> Ubuntu: `apt install screen`
+## Run in the Background:
+- Install `screen`
+==> Ubuntu: `apt install screen`
 
-    - screen -AmdS kottbot java -jar kottbot.jar
-    ==> You can also write it into a .sh file, if you need it more often :D
-    `echo "screen -AmdS kottbot java -jar <kottbot file>.jar" >> start.sh`
-    Run this in the terminal to generate your shell script.
+- screen -AmdS kottbot java -jar kottbot.jar
+==> You can also write it into a .sh file, if you need it more often :D
+`echo "screen -AmdS kottbot java -jar <kottbot file>.jar" >> start.sh`
+Run this in the terminal to generate your shell script.
 
-    - See if your bot is already running with `screen -ls`
+- See if your bot is already running with `screen -ls`
 
-    - Attach to to terminal of your bot with `screen -r <name>`
+- Attach to to terminal of your bot with `screen -r <name>`
 
 </details>
 
