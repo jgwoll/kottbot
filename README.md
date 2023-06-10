@@ -4,8 +4,10 @@ A useful Discord Bot for you!
 ## Installation
 <details>
     <summary>Docker</summary>
+    
 1. Install Docker on your system (See https://docs.docker.com/engine/install/ubuntu/)
-2. With docker-compose
+    
+2. (A) With docker-compose (recommended)
     
 ```
     version: "3"
@@ -16,9 +18,8 @@ A useful Discord Bot for you!
             volumes:
                 - ./:/home/kottbot/
 ```
-
-
-2. With docker run
+    
+2. (B) With docker run
     
 ```docker run <image name> -v ./:/home/kottbot```
     
@@ -27,13 +28,13 @@ A useful Discord Bot for you!
 <details>
     <summary>Directly on the machine</summary>
 
-## Steps
+### Steps
 - Download the latest release (or clone the repo and build from source).
 - Check if java is installed with `java --version`
 - Execute  `java -jar <jar file name>.jar` to start the Bot: 
 - Type `exit` to shutdown the bot!
 
-## Run in the Background:
+### Run in the Background:
 - Install `screen`
 ==> Ubuntu: `apt install screen`
 
