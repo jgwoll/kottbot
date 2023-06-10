@@ -26,6 +26,7 @@ A useful Discord Bot for you!
 
 <details>
     <summary>Directly on the machine</summary>
+
 ## Steps
 - Download the latest release (or clone the repo and build from source).
 - Check if java is installed with `java --version`
