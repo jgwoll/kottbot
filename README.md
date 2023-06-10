@@ -4,8 +4,8 @@ A useful Discord Bot for you!
 ## Installation
 <details>
     <summary>Docker</summary>
-    1. Install Docker on your system (See https://docs.docker.com/engine/install/ubuntu/)
-    2. With docker-
+1. Install Docker on your system (See https://docs.docker.com/engine/install/ubuntu/)
+2. With docker-compose
     
 ```
     version: "3"
@@ -18,7 +18,7 @@ A useful Discord Bot for you!
 ```
 
 
-    2. With docker run
+2. With docker run
     
 ```docker run <image name> -v ./:/home/kottbot```
     
