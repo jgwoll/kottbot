@@ -5,8 +5,9 @@ A useful Discord Bot for you!
 <details>
     <summary>Docker</summary>
     1. Install Docker on your system (See https://docs.docker.com/engine/install/ubuntu/)
-    2. With docker-compose
-    ```
+    2. With docker-
+    
+```
     version: "3"
     services:
         kottbot:
@@ -14,11 +15,13 @@ A useful Discord Bot for you!
             container_name: kottbot
             volumes:
                 - ./:/home/kottbot/
-    ```
+```
+
+
     2. With docker run
-    ```
-docker run <image name> -v ./:/home/kottbot 
-    ```
+    
+```docker run <image name> -v ./:/home/kottbot```
+    
 </details>
 
 <details>
